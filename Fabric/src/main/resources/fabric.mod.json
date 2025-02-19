@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "wheredididie",
+  "version": "1.0",
+
+  "name": "Where Did I Die?",
+  "description": "Shows and screenshots the player's coordinates in the chat after death, fully client-side!",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/where-did-i-die",
+    "sources": "https://github.com/Serilum/Where-Did-I-Die?",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Where%20Did%20I%20Die?"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.wheredididie.ModFabric" ], "client": [ "com.natamus.wheredididie.ModFabricClient" ], "modmenu": [ "com.natamus.wheredididie.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+    "wheredididie.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "collective": ">=7.92"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " David Sanchez",
+	  " drdog111",
+	  " Michael W. S.",
+	  " t128",
+	  " Tyler Behl",
+	  " XAgent"
+  ]
+}
