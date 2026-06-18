@@ -44,7 +44,7 @@ public class Util {
 		if (ConfigHandler.screenshotDeathCoordinates && (ConfigHandler.showCoordinatesInChat || ConfigHandler.broadcastCoordinatesToServer)) {
 			TaskFunctions.enqueueCollectiveClientTask(() -> {
 				Minecraft mc = Minecraft.getInstance();
-				Screenshot.grab(mc.gameDirectory, mc.getMainRenderTarget(), (context) -> {
+				Screenshot.grab(mc.gameDirectory, mc.gameRenderer.mainRenderTarget(), (context) -> {
 					mc.execute(() -> { });
 				});
 			}, 10);
