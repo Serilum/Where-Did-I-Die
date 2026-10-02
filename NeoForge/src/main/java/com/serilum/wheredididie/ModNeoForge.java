@@ -1,9 +1,9 @@
-package com.natamus.wheredididie;
+package com.serilum.wheredididie;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.wheredididie.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.wheredididie.util.Reference;
+import com.serilum.wheredididie.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.wheredididie.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;
