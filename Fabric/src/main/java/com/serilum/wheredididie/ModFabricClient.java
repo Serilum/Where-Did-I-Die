@@ -1,7 +1,7 @@
-package com.natamus.wheredididie;
+package com.serilum.wheredididie;
 
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.wheredididie.util.Reference;
+import com.serilum.wheredididie.util.Reference;
 import net.fabricmc.api.ClientModInitializer;
 
 public class ModFabricClient implements ClientModInitializer {
