@@ -1,7 +1,7 @@
-package com.natamus.wheredididie.config;
+package com.serilum.wheredididie.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.wheredididie.util.Reference;
+import com.serilum.wheredididie.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
-package com.natamus.wheredididie.util;
+package com.serilum.wheredididie.util;
 
 import com.natamus.collective.functions.StringFunctions;
 import com.natamus.collective.functions.TaskFunctions;
-import com.natamus.wheredididie.config.ConfigHandler;
+import com.serilum.wheredididie.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Screenshot;

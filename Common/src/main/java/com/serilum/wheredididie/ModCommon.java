@@ -1,6 +1,6 @@
-package com.natamus.wheredididie;
+package com.serilum.wheredididie;
 
-import com.natamus.wheredididie.config.ConfigHandler;
+import com.serilum.wheredididie.config.ConfigHandler;
 
 public class ModCommon {
 

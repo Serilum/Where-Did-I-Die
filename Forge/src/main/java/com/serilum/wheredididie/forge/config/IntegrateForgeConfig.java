@@ -1,7 +1,7 @@
-package com.natamus.wheredididie.forge.config;
+package com.serilum.wheredididie.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.wheredididie.util.Reference;
+import com.serilum.wheredididie.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
